@@ -66,7 +66,7 @@ ${f.disclaimer}
 
 function buildSystemPrompt(context?: Record<string, unknown>): string {
   const formulationCount = formulations.length;
-  const categoryList = [...new Set(formulations.map((f) => f.category))].join(', ');
+  const categoryList = Array.from(new Set(formulations.map((f) => f.category))).join(', ');
   const knowledgeBase = buildFormulationKnowledge();
 
   let prompt = `You are the ${siteConfig.name} Botanical Wellness Advisor — an AI research assistant specializing in medieval Islamic-Jewish medical scholarship and modern evidence-based pharmacognosy.
