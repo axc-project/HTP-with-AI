@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-parchment-50 text-ink-900 font-sans;
+}
+.h-serif {
+  @apply font-serif tracking-tight;
+}
+.kicker {
+  @apply uppercase tracking-[0.22em] text-[11px] text-ink-900/70;
+}
+.btn {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition;
+}
+.btn-primary {
+  @apply btn bg-gold-500 text-ink-900 hover:bg-gold-400 shadow-soft;
+}
+.btn-ghost {
+  @apply btn bg-white/70 ring-1 ring-ink-900/10 hover:bg-white shadow-soft;
+}
+.card {
+  @apply rounded-xl2 bg-white/70 ring-1 ring-ink-900/10 shadow-card backdrop-blur;
+}
+.hr-gold {
+  @apply h-px w-full bg-gradient-to-r from-transparent via-gold-500/60 to-transparent;
+}
+
+/* Premium dark cards (home) */
+.card-dark {
+  border-radius: 1.25rem;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 36, 56, 0.96),
+    rgba(7, 26, 42, 0.96)
+  );
+  box-shadow: 0 12px 28px rgba(7, 26, 42, 0.18);
+  border: 1px solid rgba(215, 181, 109, 0.18);
+}
+.kicker-on-dark {
+  color: rgba(255, 255, 255, 0.72);
+}
