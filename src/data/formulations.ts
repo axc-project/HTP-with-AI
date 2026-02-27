@@ -103,7 +103,7 @@ export const formulations: Formulation[] = [
     primaryScholar: 'Ibn Zuhr (Avenzoar)',
     period: '12th century CE — Seville, Al-Andalus',
     summary:
-      'Derived from the clinical compendium of Ibn Zuhr, court physician to the Almohad caliphate, this formulation targets the "animal spirit" (rūḥ ḥaywānī) residing in the brain ventricles. Ibn Zuhr's empirical observations on cognition and memory preceded modern neuroscience by eight centuries. The constituent botanicals exhibit documented cholinergic, antioxidant, and anti-neuroinflammatory mechanisms.',
+      'Derived from the clinical compendium of Ibn Zuhr, court physician to the Almohad caliphate, this formulation targets the "animal spirit" (rūḥ ḥaywānī) residing in the brain ventricles. Ibn Zuhr\'s empirical observations on cognition and memory preceded modern neuroscience by eight centuries. The constituent botanicals exhibit documented cholinergic, antioxidant, and anti-neuroinflammatory mechanisms.',
     keyIngredients: [
       {
         name: 'Rosemary Leaf',
